@@ -1,0 +1,20 @@
+{
+    "properties":
+    {
+        "roleName":"Custom RBAC Role",
+        "description":"",
+        "assignableScopes":["/subscriptions/29f51c3f-82d7-495d-8911-1e7efd388e27"],
+        "permissions":[
+            {
+                "actions":[
+                    "Microsoft.Compute/virtualMachines/deallocate/action",
+                    "Microsoft.Compute/virtualMachines/start/action",
+                    "Microsoft.Support/supportTickets/write"
+                    ],
+                "notActions":[],
+                "dataActions":[],
+                "notDataActions":[]
+            }
+        ]
+    }
+}
