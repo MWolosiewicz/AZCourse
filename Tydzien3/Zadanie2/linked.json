@@ -11,7 +11,7 @@
             "properties":{
                 "mode":"Incremental",
                 "templateLink":{
-                    "uri":"https://github.com/MWolosiewicz/AZ_Course/blob/master/Tydzien_3/Zadanie_2/vnet_subnets.json",
+                    "uri":"https://github.com/MWolosiewicz/AZ_Course/blob/master/Tydzien3/Zadanie2/vnet-subnets.json",
                     "contentVersion":"1.0.0.0"
                 }
             }
@@ -23,7 +23,7 @@
             "properties":{
                 "mode":"Incremental",
                 "templateLink":{
-                    "uri":"https://github.com/MWolosiewicz/AZ_Course/blob/master/Tydzien_3/Zadanie_2/vm1.json",
+                    "uri":"https://github.com/MWolosiewicz/AZ_Course/blob/master/Tydzien3/Zadanie2/vm1.json",
                     "contentVersion":"1.0.0.0"
                 } 
             },
@@ -36,7 +36,7 @@
             "properties":{
                 "mode":"Incremental",
                 "templateLink":{
-                    "uri":"https://github.com/MWolosiewicz/AZ_Course/blob/master/Tydzien_3/Zadanie_2/vm2.json",
+                    "uri":"https://github.com/MWolosiewicz/AZ_Course/blob/master/Tydzien3/Zadanie2/vm2.json",
                     "contentVersion":"1.0.0.0" 
                 }
             },
