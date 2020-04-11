@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters":{
+       "adminUsername":{
+           "value":"polcadmin"
+       },
+       "adminPassword":{
+           "reference": {
+             "keyVault":{
+                "id":"/subscriptions/29f51c3f-82d7-495d-8911-1e7efd388e27/resourceGroups/General/providers/Microsoft.KeyVault/vaults/KEYV-general"
+                },
+                "secretName":"polcadmin"
+            }
+        }
+    }
+}
+    
