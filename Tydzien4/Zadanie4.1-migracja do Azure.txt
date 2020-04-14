@@ -1,13 +1,18 @@
 1. Wykorzystanie Azure Migrate , które pozwoli okreœliæ aktualny stan infrastruktury.
 
-Dziêki Azure Migrate uzyskam informacje o aktualnej utylizacji zasobów, co pozwoli zoptymalizowaæ  ich wykorzystanie w Azure. Byæ mo¿e niektóre ze œrodowisk pracuj¹ na konfiguracji przesadnie zwymiarowanej, wybranie odpowiednich rozmiarów VM w Azure przyczyni siê do ograniczenia kosztów.
+Dziêki Azure Migrate uzyskam informacje o aktualnej utylizacji zasobów, co pozwoli zoptymalizowaæ  ich wykorzystanie w Azure. 
+Byæ mo¿e niektóre ze œrodowisk pracuj¹ na konfiguracji przesadnie zwymiarowanej, wybranie odpowiednich rozmiarów VM w Azure przyczyni siê do ograniczenia kosztów.
 
 
 2. Wytypowanie œrodowisk, dla których lift&shift jest jedyna mo¿liw¹ opcj¹ oraz tych, które mog¹ zostaæ zmigrowane  na rozwi¹zania typu PAAS.
-Iloœæ serwerów w firmie z zadania pozwala s¹dziæ, ¿e mimo i¿ dla czêœci serwerów, zw³aszcza utrzymuj¹cych systemy "legacy" jedynym rozwi¹zaniem bêdzie lift&shift, istnieje równie¿ grupa systemów, które mo¿na bêdzie zmigrowaæ na rozwi¹zania typu PASS, np. serwery bazodanowe
+
+Iloœæ serwerów w firmie z zadania pozwala s¹dziæ, ¿e mimo i¿ dla czêœci serwerów, zw³aszcza utrzymuj¹cych systemy "legacy" jedynym rozwi¹zaniem bêdzie lift&shift,
+ istnieje równie¿ grupa systemów, które mo¿na bêdzie zmigrowaæ na rozwi¹zania typu PASS, np. serwery bazodanowe
 
 3. Wytypowanie œrodowisk, dla których lepszym rozwi¹zaniem bêdzie wykorzystanie Virtual Machines Scale Set ni¿ obecne rozwi¹zanie on-premise.
-W przypadku serwerów frontendowych, aplikacyjnych czy terminalowych byæ mo¿e lepszym rozwi¹zaniem oka¿e siê wykorzystanie VMSS co zapewni lepsze wykorzystanie zasobów i prostsze zarz¹dzanie ( np. aktualizacja obrazu VM w VMSS ni¿ aktualizacja np. 10 serwerów frontendowych )
+
+W przypadku serwerów frontendowych, aplikacyjnych czy terminalowych byæ mo¿e lepszym rozwi¹zaniem oka¿e siê wykorzystanie VMSS co zapewni
+ lepsze wykorzystanie zasobów i prostsze zarz¹dzanie ( np. aktualizacja obrazu VM w VMSS ni¿ aktualizacja np. 10 serwerów frontendowych )
 
 4. Migracja testowa œrodowiska do chmury, weryfikacja poprawnoœci dzia³ania systemów, testy wydajnoœciowe i ewentualne dostosowywanie zasobów, testy scenariuszy awaryjnych
 

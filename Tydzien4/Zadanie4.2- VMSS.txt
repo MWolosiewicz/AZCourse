@@ -1,0 +1,7 @@
+Na chwilê obecn¹ VMSS u¿y³bym do:
+- serwerów aplikacyjnych
+-serwerów frontendowych
+- serwerów  terminalowych
+
+az group create --name EASTUS  --location eastus
+az vmss create --resource-group EASTUS  --name VMSS-test --instance-count 4 --image UbuntuLTS   --vm-sku Standard_B1ls --admin-username testadmin --admin-password 68qHGW8nrNqU --generate-ssh-keys --authentication-type all
